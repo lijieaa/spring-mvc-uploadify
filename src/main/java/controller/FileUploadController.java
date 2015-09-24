@@ -49,6 +49,7 @@ public class FileUploadController {
 		File uploadedFile = new File(dirPath + sep+ savePath);
 		FileCopyUtils.copy(bytes, uploadedFile);
 		return true;
+
 	}
 	
 }
